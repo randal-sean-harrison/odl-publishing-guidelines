@@ -1,0 +1,41 @@
+:root {
+   /* root color variables */
+   --bright-blue: #007bff;
+   --nd-blue: #20364c;
+   --cool-blue: #3c7aa5;
+   /* --body-background: #f7f9fa; */
+   --bg-light-gray: #f0f3f6;
+   /* --body-background: #FCFCFC; */
+   --body-background: #f6f9fc;
+   --ghost-white: ghostwhite;
+   --alice-blue: aliceblue;
+   --alice-bluer: #e2ecf5;
+   --footer-slate: #e6e8f1;
+   --footer-slate: #20364c;
+   --white: white;
+   --body-font: #666;
+   --slate-gray: lightslategray;
+   --silver: silver;
+   --tooltips: #eaeaea;
+   --graphite: #506578;
+   --trench-blue: #406885;
+   --light-blue: #d0e9fe;
+   --chocolate: #d2691e;
+   /* --maroon: maroon; */
+   --maroon: brown;
+   --nd-gold: #d39f10;
+}
+
+html {
+   font-size: 16px;
+}
+
+body {
+   box-sizing: border-box;
+   font-family: "Figtree", Helvetica, Arial, sans-serif;
+   color: var(--body-font);
+   font-weight: 300;
+   font-size: 1rem;
+   background: var(--body-background);
+}
+
